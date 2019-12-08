@@ -20,13 +20,31 @@
     margin: 5px;
 }
 
-.div-sticker > button {
-    width: 160px;
+.div-contador > span {
+    margin: 0;
+    margin-left: 20px;
+}
+
+.div-contador > button {
     height: 30px;
-    font-size: 10pt;
-    padding: 5px;
-    border: 1px solid #069264;
-    background-color: rgb(16, 145, 66);
-    color: #ffffff;
+    width: 30px;
+    margin: 5px;
+    padding: 0;
+    border: 1px solid;
+    border-radius: 20%;
     font-weight: bold;
+    font-size: 14pt;
+    text-align: center;
+    text-align: center;
+}
+
+.btn-add {
+    background-color: green;
+    color: white;
+}
+
+.btn-rem {
+    background-color: rgb(138, 13, 13);
+    color: white;
+    border-color: 0px;
 }

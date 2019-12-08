@@ -1,5 +1,9 @@
 <div class="div-sticker">
     <h4>{{ title }}</h4>
     <img [src]="url" [alt]="title">
-    <button type="button">+ Incluir</button>
+    <div class="div-contador">
+        <button (click)="adicionar()" class="btn-add">+</button>
+        <button (click)="remover()" class="btn-rem">-</button>
+        <span>{{ contador }}</span>
+    </div>
 </div>

@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
 
 @Component({
     selector: 'orb-sticker',
@@ -8,4 +8,20 @@ import { Component, Input } from '@angular/core';
 export class StickerComponent {
     @Input() url: string = '';
     @Input() title: string = '';
+
+    @Output() contador: number = 0;
+
+    adicionar() {
+        this.contador = this.contador + 1;
+    }
+
+    remover() {
+        if (this.contador > 0) {
+            this.contador = this.contador - 1;
+        }
+        else {
+            window.alert('Sticker encontra-se com quantidade igual a zero');
+        }
+    }
+
 }
