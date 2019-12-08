@@ -1,0 +1,32 @@
+.div-sticker {
+    margin: 10px;
+    position: relative;
+    float: left;
+    width: 220px;
+    height: 280px;
+    text-align: center;
+    border: 1px solid #999999;
+}
+
+.div-sticker > h4 {
+    text-align: center;
+    font-size: 12pt;
+    margin-top: 10px;
+}
+
+.div-sticker > img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.div-sticker > button {
+    width: 160px;
+    height: 30px;
+    font-size: 10pt;
+    padding: 5px;
+    border: 1px solid #069264;
+    background-color: rgb(16, 145, 66);
+    color: #ffffff;
+    font-weight: bold;
+}
