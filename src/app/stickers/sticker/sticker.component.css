@@ -23,6 +23,7 @@
 .div-contador > span {
     margin: 0;
     margin-left: 20px;
+    font-size: 14pt;
 }
 
 .div-contador > button {

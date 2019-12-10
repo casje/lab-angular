@@ -6,12 +6,14 @@ import { Component, Input, Output } from '@angular/core';
     styleUrls: ['sticker.component.css']
 })
 export class StickerComponent {
+    @Input() ident: number = 0;
     @Input() url: string = '';
     @Input() title: string = '';
 
     @Output() contador: number = 0;
 
     adicionar() {
+        //window.alert('ident: ' + ident);
         this.contador = this.contador + 1;
     }
 

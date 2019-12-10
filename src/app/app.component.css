@@ -25,15 +25,14 @@ html, body {
 }
 
 body {
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif !important;
-    font-size: 12px;
     line-height: 1.42857143;
-    color: #949494;
+    color: #000000;
     background-color: #ffffff;
 }
 
 .wrapper {
     font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif !important;
+    font-size: 12px;
 	margin: 0 auto;
 	width: 100%;
 	min-height: 350px;
@@ -48,22 +47,22 @@ body {
     margin: 0 auto;
     height: 70px;
     width: 100%;
-    background-color: #3c0c88;
+    background-color: #3f3d46;
     color: #ffffff;
     position: relative;
 }
 
 .div-header > h3 {
     float: left;
-    margin: 25px;
-    font-size: 140%;
+    margin: 25px 0px 0px 20px;
+    font-size: 180%;
 }
 
 .dropmenu {
 	list-style: none; 
 	float: right;
     color: #fff;
-    font-size: 10pt;
+    font-size: 12pt;
     margin: 20px 10px 5px 0px;
 }
 
@@ -76,10 +75,12 @@ body {
 .div-main {
     position: relative;
     margin: 0 auto;
-    padding: 50px;
     min-height: 300px;
     width: 100%;
     padding: 20px;
+    border: 0px solid #3f3d46;
+    border-width: 3px 3px 0px 3px;
+    overflow: hidden;
 }
 
 .div-footer {
@@ -88,7 +89,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     width: 100%;
-    background-color: #000000;
+    background-color: #096177;
     text-align: center;
     color: #ffffff;
 }
